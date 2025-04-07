@@ -1,0 +1,179 @@
+add_module,新增
+CATK_CAR_LOG_ANPS,Log - ANPS
+CATK_CAR_LOG_ATG,Log - ATG
+CATK_CAR_LOG_BIOPTRO,Log - NIOPTRO
+CATK_CAR_LOG_CURCUIT_LINE,Log - CIRCUIT LINE
+CATK_CAR_LOG_EMMA,Log - EMMA
+CATK_CAR_LOG_FOREVER,Log - FOREVER
+CATK_CAR_LOG_HIOKI,Log - HIOKI
+CATK_CAR_LOG_JOINT_STARS,Log - JOINT STARS
+CATK_CAR_LOG_KM,Log - KM
+CATK_CAR_LOG_LEENO,Log - LEENO
+CATK_CAR_LOG_LM,Log - LM
+CATK_CAR_LOG_LM1000,Log - LM1000
+CATK_CAR_LOG_MANIA,Log - MANIA
+CATK_CAR_LOG_MASON,Log - MASON
+CATK_CAR_LOG_NEW_READ,Log - New READ
+CATK_CAR_LOG_READ,Log - READ
+CATK_CAR_LOG_SEICA,Log - SEICA
+CATK_CAR_LOG_SINK,Log - SINK
+CATK_CAR_LOG_TTI,Log - TTI
+CATK_CAR_LOG_UTRON,Log - UTRON
+CATK_CAR_LOG_UTRON_TXT,Log - UTRON TXT
+CATK_CAR_LOG_WIDE,Log - WIDE
+CATK_CAR_NEW_EZCAT,2010 New EzCAT
+CATK_CAR_PRODUCT,EzCAR
+CATK_CAR_SHARE_GRID,Share Grid EzCAR
+CATK_CAR_VIDEO_IMAGE_DISPLAY,Video image display
+CATK_CDGF,CDGF
+CATK_CDGM,CDGM
+CATK_CDGU,CDGU
+CATK_CDGU_OFFSET_COPY,多次平移複製
+CATK_CDGU_OUTPUT_CL_OD,輸出 Circuit line OD 測試程式
+CATK_FIX,EzFixture
+CATK_FIX_4W,4-四線式測試
+CATK_FIX_4W_HIOKI_OUTPUT,4-四線式 Hioki 輸出
+CATK_FIX_4W_MIYACHI_OUTPUT,賜安 OHT (Miyachi)
+CATK_FIX_4W_RESISTANCE,4-四線式計算阻抗
+CATK_FIX_4W_YAMAHA_FLYING_OUTPUT,4W output (YAMAHA)
+CATK_FIX_AGENT_EST_ID,Agent ID - EST
+CATK_FIX_AGENT_ID,Agent ID - SiLan
+CATK_FIX_AGENT_MASON_ID,Agent ID - Mason
+CATK_FIX_AGENT_MAXTRON_ID,Agent ID - MAXTRON
+CATK_FIX_AGENT_SLEC_ID,Agent ID - SLEC
+CATK_FIX_AGENT_WIDE_ID,Agent ID - WIDE
+CATK_FIX_BURIED_RESISTOR,BR (buried resistor)
+CATK_FIX_CAR531_OUTPUT,CAR531
+CATK_FIX_FLYING_PROBE_COMPLETE,Flying probe
+CATK_FIX_HIOKI,PPT TDR test (Hioki)
+CATK_FIX_HIPOT,Hipot test
+CATK_FIX_HIPOT_AREA_FILTER,提供 Hipot 標籤的 面積過濾功能 (Hipot area filter)
+CATK_FIX_RIGID_FLEX,軟硬結合板
+CATK_FIX_Split_Net_DRC,Split/DRC
+CATK_FIX_V64BIT,EzFixture 64-bit
+CATK_GRID,EzGrid
+CATK_GRID_4WIRE_TEST,4-四線式測試
+CATK_GRID_AGENT_EST_ID,Agent ID - Eastek
+CATK_GRID_AGENT_ID,Agent ID - SiLand
+CATK_GRID_AGENT_JIASHI_ID,Agent ID - JIASHI (佳實)
+CATK_GRID_AGENT_MASON_ID,Agent ID - MASON (明信)
+CATK_GRID_AGENT_MAXTRON_ID,Agent ID - MAXTRON (萬朗)
+CATK_GRID_AGENT_SLEC_ID,Agent ID - SLEC (宇之光飛針)
+CATK_GRID_AGENT_WIDE_ID,Agent ID - WIDE (萬德飛針)
+CATK_GRID_BR,BR
+CATK_GRID_COMBINATION,複合式治具 (祥探
+CATK_GRID_FINE_DENSITY,超高密度
+CATK_GRID_GD_DENSITY,八倍密度
+CATK_GRID_GTSKIT_GENERAL_USER,General User
+CATK_GRID_GTSKIT_POWER_USER,Power User
+CATK_GRID_IMPORT_ATG_REFFILE,Ref input
+CATK_GRID_LEENO_AUTO,Leeno auto fixture
+CATK_GRID_MAPTO_GRID_FOR_COMBINATION,MAP to Grid (祥探功能)
+CATK_GRID_MASON_SHARE,Mason Share Grid
+CATK_GRID_NO_BLINDPIN,EzGrid (No blind pin)
+CATK_GRID_NONE_GRID,None Grid Solve
+CATK_GRID_SHARE_GRID,Share Gird (Utron
+CATK_GRID_TOP_DEDICATE_MAPTO_BOTTOM,明信上專下萬
+CATK_GRID_TST_ATG,ATG
+CATK_GRID_TST_CKL,Circuit Line
+CATK_GRID_TST_ECT,ECT
+CATK_GRID_TST_FOREVER,FOREVER
+CATK_GRID_TST_LM,L&M
+CATK_GRID_TST_MANIA,MANIA
+CATK_GRID_TST_MASON,MASON
+CATK_GRID_TST_MAXTRON,MAXTRON
+CATK_GRID_TST_SINK,SINK
+CATK_GRID_TST_TTI,TTI
+CATK_GRID_TST_UTRON_U,UTRON(U)
+CATK_GRID_WITH_BLINDPIN,EzGrid (Blind pin)
+CATK_MAP,EzMap
+CATK_MAP_AGENT_EST_ID,Agent ID - EST
+CATK_MAP_AGENT_ID,Agent ID
+CATK_MAP_AGENT_JIASHI_ID,Agent ID - JIASHI
+CATK_MAP_AGENT_MASON_ID,Agent ID - MASON
+CATK_MAP_AGENT_MAXTRON_ID,Agent ID - MAXTRON
+CATK_MAP_AGENT_SLEC_ID,Agent ID - SLEC
+CATK_MAP_AGENT_WIDE_ID,Agent ID - WIDE
+CATK_MAP_ASCCHECK,ICT MAP
+CATK_MAP_ASUS_ICT,ASUS ICT (nails
+CATK_MAP_CAN_READ_DP4W,四線式 (4W)
+CATK_MAP_MAPSEQ_OUT,LeeNo 治具檢查機 (XY file)
+CATK_MAP_NEW_EZCAT,2010 New EzCAT
+CATK_MAP_PRODUCT_MAPRC,RC
+CATK_MAP_PRODUCT_MAPRCRT,CRT
+CATK_MAP_PRODUCT_MAPRT,RT
+CATK_MAP_PRODUCT_STANDARD,Standard
+CATK_MAP_SHARE_GRID,Share Grid
+CATK_MYFLY,MyFly
+CATK_PROBE,EzProbe
+CATK_PROBE_4W_TEST,4-四線式測試
+CATK_PROBE_AGENT_EST_ID,Agent ID - EST
+CATK_PROBE_AGENT_ID,Agent ID
+CATK_PROBE_AGENT_JIASHI_ID,Agent ID - JIASHI
+CATK_PROBE_AGENT_MASON_ID,Agent ID - Mason
+CATK_PROBE_AGENT_MAXTRON_ID,Agent ID - MAXTRON
+CATK_PROBE_AGENT_SLEC_ID,Agent ID - SLEC
+CATK_PROBE_AGENT_WIDE_ID,Agent ID - WIDE
+CATK_PROBE_PRODUCT,No EzProbe/EzPICT
+CATK_PROBE_SPLIT_NET,Split Net/Auto Test
+cdgf,CDGF
+cdgm,CDGM
+cdgu,CDGU
+delete_module,刪除
+drill_slice_inspector_starting,Drill Slice Inspector
+ezautocoupon_starting,ezAutoCoupon
+ezavi_starting,ezAVI
+ezcam_autopanel_starting,ezAutoPanel
+ezcam_basic_starting,ezCAM Basic
+ezcam_di_starting,ezCAM DI
+ezcam_flex_starting,ezCAM Flex
+ezcam_kintech_starting,ezCAM Kintech
+ezcam_smartquote_starting,SQEditor
+ezcam_standard_starting,ezCAM Standard
+ezcam_starting,ezCAM
+ezcam_viewer_starting,ezCAM Viewer
+ezcamnote_starting,ezCAMNote
+ezcar,EzCAR
+ezcar_log,EzCAR Log
+ezdi_altix_starting,ezDI ALTIX
+ezdi_gerber_starting,ezDI Gerber
+ezdi_o_starting,ezDI_o
+ezdi_starting,ezDI
+ezfixture,EzFixture
+ezfixture2_starting,FixtureII
+ezflex_panel_starting,ezFlex Panel only
+ezflex_stackup_panel_starting,ezFlex Stackup+Panel
+ezflex_stackup_starting,ezFlex Stackup only
+ezflex_starting,ezFlex
+ezgrid,EzGrid
+ezgrid_kit,EzGrid Kit
+ezgrid_tester,EzGrid tester
+ezlib_image_quicktest,ezLIB Image
+ezlib_odb2gerber_convertor_ns,ezLIB ODB++ to Gerber
+ezlib_raster_image_convertor,ezLIB Raster Image Convetor
+ezmap,EzMap
+ezplan_panel_starting,ezPlan Panel only
+ezplan_stackup_panel_starting,ezPlan Stackup+Panel
+ezplan_stackup_starting,ezPlan Stackup only
+ezprobe,EzProbe
+fm_f4w_convertor_anps_v2,FM/F4W Converter
+modified_module,修改
+OFFICIAL,正式
+PERMANENT,永久
+SHIPPING,出貨
+TRIAL,測試
+ezplan_polar_calc_loss_option,ezPlan PolarCalcLoss
+ezplan_ipc2581b_option,ezPlan IPC2581B
+ezplan_starting,ezPlan
+campro330_starting,CAMPro330
+smartquote_core,SmartQuote
+ezcar_starting,ezCAR
+Save_ADR_File,Save_ADR_File
+ezdimension_starting,ezDimension
+Read_Err_Utron_txt,Read_Err_Utron_txt
+fm_f4w_convertor_anps,FM&F4w Convetor
+campro550_starting,CAMPro550
+Read_Err_JointStars,Read_Err_JointStars
+Read_Err_Mason_Atg,Read_Err_Mason_Atg
+Save_CAR_File,Save_CAR_File
+Read_Gerber_File,Read_Gerber_File

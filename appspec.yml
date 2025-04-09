@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/aws_test
+hooks:
+  ApplicationStart:
+    - location: ""
+      timeout: 300
+      runas: root
+      commands:
+        - echo "Starting Django application..."
+        - cd /var/www/aws_test
+        - python3 manage.py runserver 0.0.0.0:8000 &

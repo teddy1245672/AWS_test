@@ -10,5 +10,9 @@ hooks:
       runas: root
       commands:
         - echo "Starting Django application..."
+        - apt-get install -y python3-pip
+        - pip3 install django whitenoise openpyxl djangorestframework -t ./dependencies
         - cd /var/www/aws_test
+        - npm install
+        - npm run build
         - python3 manage.py runserver 0.0.0.0:8000 &

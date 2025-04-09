@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12.16.1  # 用於 Vue.js
+      python: 3.10  # 用於 Django
+    commands:
+      - apt-get install -y python3-pip  # 安裝 pip
+      - pip3 install django whitenoise openpyxl djangorestframework  # 安裝 Python 依賴
+  build:
+    commands:
+      - npm install
+      - npm run build
+  post_build:
+    commands:
+      - echo "Packaging all files for deployment..."
+      - zip -r AWS_test.zip ./*  # 打包根目錄下的所有檔案和子目錄
+
+artifacts:
+  files:
+    - AWS_test.zip  # 上傳打包好的 ZIP
+  discard-paths: yes  # 忽略原始路徑結構

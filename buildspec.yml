@@ -11,11 +11,11 @@ phases:
     commands:
       - npm install
       - npm run build
-  post_build:
-    commands:
-      - echo "Packaging all files for deployment..."
-      - zip -r AWS_test.zip ./*
+#  post_build:
+#    commands:
+#      - echo "Packaging all files for deployment..."
+#      - zip -r AWS_test.zip ./*
 artifacts:
   files:
-    - AWS_test.zip
-  #discard-paths: yes
+    - './*'  # 包含所有檔案
+  name: AWS_test.zip  # 自訂成品名稱

@@ -6,7 +6,7 @@ phases:
       python: 3.10
     commands:
       - apt-get install -y python3-pip
-      - pip3 install django whitenoise openpyxl djangorestframework -t ./dependencies
+      - pip3 install django whitenoise openpyxl djangorestframework
   build:
     commands:
       - npm install

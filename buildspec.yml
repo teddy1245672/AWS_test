@@ -17,5 +17,5 @@ phases:
 #      - zip -r AWS_test.zip ./*
 artifacts:
   files:
-    - './*'  # 包含所有檔案
+    - '**/*'  # 包含所有檔案
   name: AWS_test.zip  # 自訂成品名稱

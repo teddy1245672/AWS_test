@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/aws_test
+    destination: /home/ubuntu/aws_test
 hooks:
   ApplicationStart:
     - location: ""
@@ -12,7 +12,7 @@ hooks:
         - echo "Starting Django application..."
         - apt-get install -y python3-pip
         - pip3 install django whitenoise openpyxl djangorestframework
-        - cd /var/www/aws_test
+        - cd /home/ubuntu/aws_test
         - npm install
         - npm run build
         - python3 manage.py runserver 0.0.0.0:8000 &

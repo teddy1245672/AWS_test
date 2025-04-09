@@ -14,7 +14,7 @@ phases:
   post_build:
     commands:
       - echo "Packaging all files for deployment..."
-      - zip -r AWS_test.zip
+      - zip -r AWS_test.zip ./*
 artifacts:
   files:
     - AWS_test.zip

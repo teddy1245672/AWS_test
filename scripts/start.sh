@@ -10,4 +10,4 @@ pip3 install django whitenoise openpyxl djangorestframework
 #cd /home/ubuntu/AWS_test
 #sudo npm install
 #npm run build
-python3 manage.py runserver 0.0.0.0:8000 &
+nohup python3 manage.py runserver 0.0.0.0:8000 &

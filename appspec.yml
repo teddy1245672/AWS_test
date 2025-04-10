@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/aws_test
+    destination: /home/ubuntu/AWS_test
 hooks:
   ApplicationStart:
     - location: scripts/start.sh

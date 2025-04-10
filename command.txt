@@ -39,7 +39,6 @@ pip install django
 
 pip install whitenoise
 pip install djangorestframework
-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
 
 sudo apt-get install libpq-dev
 delete requirements.txt pywin32=227
